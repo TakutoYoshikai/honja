@@ -31,6 +31,8 @@ npm install -g TakutoYoshikai/honja
 ```
 
 **transliterate**
+
+ひらがなのみをサポートしています。
 ```bash
 honja Korean "ぼくのなまえはたくとです"
 honja Greek "ぼくのなまえはたくとです"
