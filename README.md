@@ -35,6 +35,9 @@ npm install -g TakutoYoshikai/honja
 honja Korean "ぼくのなまえはたくとです"
 honja Greek "ぼくのなまえはたくとです"
 honja Romaji "ぼくのなまえはたくとです"
+
+# まとめて変換
+honja All "ぼくのなまえはたくとです"
 ```
 
 ### Contributing
