@@ -1,11 +1,11 @@
 # HONJA
 ひらがなを多言語に翻字( 発音をそのまま他の国の文字に変換 )するツールです。
 
-### Requirements
+### 動作環境
 * Node.js
 * npm
 
-### Usage
+### 使い方
 | サポートしている言語 |
 | ---- |
 | Thai |
@@ -25,12 +25,12 @@
 | Sinhalese |
 | Romaji |
 
-**install**
+**インストール**
 ```bash
 npm install -g TakutoYoshikai/honja
 ```
 
-**transliterate**
+**翻字**
 
 ひらがなのみをサポートしています。
 ```bash
