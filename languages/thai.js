@@ -1,0 +1,15 @@
+module.exports = {
+  name: "Thai",
+  country: "Thai",
+  readFromRight: false,
+  omitLongVowel: true,
+  differentAtEndOfWord: true,
+  startWithUpperCase: false,
+  distinguishSokuon: true,
+  haveSpecialVowelPatterns: true,
+  useAdditionalDictionary: true,
+  consonantList: ["อ","ค","กค","ก","ซ","ดซ","ซ","ดซ","ซ","จ","ต","ดต","ช","ดช","ซ","ดซ","ด","จ","ซ","น","ฮ","ฮ","บ","ป","บป","ม","ย","ร","ว","น",""],
+  vowelList: ["ะ","","","เะ","โะ","ย","ว","ยว","","ไ"],
+  vowelRomajiIndex: ["a","i","u","e","o","ya","yu","yo","qq","ai"],
+  basicHiraVowels: ["あ","い","う","え","お","あい"],
+}
