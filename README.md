@@ -48,6 +48,29 @@ honja Romaji "ぼくのなまえはたくとです"
 honja All "ぼくのなまえはたくとです"
 ```
 
+レスポンス
+```javascript
+{
+  Thai: 'โบคุโนนามาเอวาตาคุโตเดซุ',
+  Russian: 'бокунонамаэватакутодэсу',
+  Arabic: 'بوكونوناماإيواتاكوتوديسو',
+  Korean: '보쿠노나마에와타쿠토데스',
+  Hindi: 'बोकुनोनामाएवाताकुतोदेसु',
+  Tibetan: 'རྦོ་ཁུ་ནོ་ན་མ་ཨེ་ཝ་ཐ་ཁུ་ཐོ་རྡེ་སུ་',
+  Hebrew: 'בּוֹקוּנוֹנָמָאֵווָטָקוּטוֹדֵסוּ',
+  Khmer: 'បុកឹណុណាមាអិវាតាកឹតុដិសឹ',
+  Amharic: 'ቦኩኖናማኤዋታኩቶዴሡ',
+  Tamil: 'போகூநோநாமாஏவாதாகூதோதேஸூ',
+  Armenian: 'բոքունոնամաեուաթաքութոդեսու',
+  Burmese: 'ဘိုကူနိုနာမာအဲဝါတာကူတိုဒဲဆူ',
+  Greek: 'μποκουνοναμαεβατακουτοντεσου',
+  Georgian: 'ბოკუნონამაეუატაკუტოდესუ',
+  Sinhalese: 'බෝකූනෝනමඒවටකූටෝඩේසූ',
+  Romaji: 'bokunonamaewatakutodesu',
+  Hiragana: 'ぼくのなまえわたくとです'
+}
+```
+
 ### Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
