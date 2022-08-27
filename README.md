@@ -1,7 +1,41 @@
 # HONJA
+ひらがなを多言語に翻字( 発音をそのまま他の国の文字に変換 )するツールです。
+
 ### Requirements
+* Node.js
+* npm
+
 ### Usage
+| サポートしている言語 |
+| ---- |
+| Thai |
+| Russian |
+| Arabic |
+| Korean |
+| Hindi |
+| Tibetan |
+| Hebrew |
+| Khmer |
+| Amharic |
+| Tamil |
+| Armenian |
+| Burmese |
+| Greek |
+| Georgian |
+| Sinhalese |
+| Romaji |
+
 **install**
+```bash
+npm install -g TakutoYoshikai/honja
+```
+
+**transliterate**
+```bash
+honja Korean "ぼくのなまえはたくとです"
+honja Greek "ぼくのなまえはたくとです"
+honja Romaji "ぼくのなまえはたくとです"
+```
 
 ### Contributing
 
