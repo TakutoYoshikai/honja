@@ -4,12 +4,16 @@ const {
 
 const dictionary = loadOtherDictionary("charToVowel.csv");
 
+function replace(text, index, replacement) {
+  return text.substr(0, index) + replacement+ text.substr(index + replacement.length);
+}
+
 function Onbiki(text) {
-  const len = text.length;
-  const result = text.slice();
-  for (let i = len; i <= 1; i--) {
-    if (result[i] === "ー" || result[i] == "ー") {
-      result[i] = dictionary[result[i-1]];
+
+  let result = text.slice();
+  for (let i = text.length; i >= 1; i--) {
+    if (result[i] === "ー" || result[i] === "ー") {
+      result = replace(result, i, dictionary[result[i-1]]);
     }
   }
   return result;
