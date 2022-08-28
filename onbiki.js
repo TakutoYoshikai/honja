@@ -12,7 +12,7 @@ function Onbiki(text) {
 
   let result = text.slice();
   for (let i = text.length; i >= 1; i--) {
-    if (result[i] === "ー" || result[i] === "ー") {
+    if ((result[i] === "ー" || result[i] === "ー") && result[i-1] in dictionary) {
       result = replace(result, i, dictionary[result[i-1]]);
     }
   }
