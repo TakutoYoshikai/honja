@@ -1,7 +1,7 @@
 {
   "name": "honja",
   "version": "1.0.0",
-  "description": "",
+  "description": "ひらがなを多言語に翻字( 発音をそのまま他の国の文字に変換 )するツール",
   "main": "index.js",
   "bin": {
     "honja": "./bin/honja.js"
@@ -13,14 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/TakutoYoshikai/honja.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Japanese",
+    "翻字",
+    "HONJA",
+    "日本語"
+  ],
   "author": "Takuto Yoshikai <takuto.yoshikai@gmail.com> (https://yoshikai.net/en)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TakutoYoshikai/honja/issues"
   },
-  "homepage": "https://github.com/TakutoYoshikai/honja#readme",
-  "dependencies": {
-    "csv-parse": "^5.3.0"
-  }
+  "homepage": "https://github.com/TakutoYoshikai/honja#readme"
 }
