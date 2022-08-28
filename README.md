@@ -74,6 +74,20 @@ honja All "ぼくのなまえはたくとです"
   Hiragana: 'ぼくのなまえわたくとです'
 }
 ```
+
+### API
+
+```javascript
+const Honja = require("honja");
+const honja = new Transliterator();
+
+let result;
+result = honja.convert("こんにちは", "Korean");
+
+//サポートされている全ての言語に変換
+result = honja.convertAll("こんにちは");
+```
+
 ### 開発者
 - 吉開 拓人
 - 吉開 章
