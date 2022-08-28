@@ -9,6 +9,8 @@
 
 HONJAは多言語でひらがなを翻字できるツールです。
 
+## [DEMOサイト](https://yoshikai.net/honja)
+
 ### 動作環境
 * Node.js
 * npm
