@@ -75,7 +75,7 @@ honja All "ぼくのなまえはたくとです"
 }
 ```
 
-### API
+### JavaScript API
 
 ```javascript
 const Honja = require("honja");
