@@ -1,6 +1,6 @@
 {
   "name": "honja",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ひらがなを多言語に翻字( 発音をそのまま他の国の文字に変換 )するツール",
   "main": "index.js",
   "bin": {
