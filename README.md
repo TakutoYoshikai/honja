@@ -6,6 +6,8 @@
 
 HONJAは多言語でひらがなを翻字できるツールです。
 
+<img src="./honja.png" width="400" >
+
 
 ### 動作環境
 * Node.js
