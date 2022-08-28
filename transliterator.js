@@ -42,6 +42,13 @@ function isNumberCharacter(ch) {
 }
 
 
+function hiraganaToKatakana(text) {
+  return text.replace(/[\u30a1-\u30f6]/g, function(match) {
+    var chr = match.charCodeAt(0) - 0x60;
+    return String.fromCharCode(chr);
+  });
+}
+
 function Transliterator() {
   const maxPrecedingCheckJP = 10;
 	const maxPrecedingCheckOther = 8;
@@ -199,6 +206,7 @@ function Transliterator() {
   }
   this.convertToHiragana = function(text) {
     let hiragana = toHankaku(text);
+    hiragana = hiraganaToKatakana(hiragana);
     hiragana = convertSpecialJoshi(hiragana);
     hiragana = this.convertNumberToHiragana(hiragana);
     hiragana = onbiki(hiragana);

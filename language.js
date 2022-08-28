@@ -22,21 +22,30 @@ const languageNames = [
   "Hiragana",
 ];
 
-const languages = {};
+const languages = {
+  "Thai": require("./languages/thai"),
+  "Russian": require("./languages/russian"),
+  "Arabic": require("./languages/arabic"),
+  "Korean": require("./languages/korean"),
+  "Hindi": require("./languages/hindi"),
+  "Tibetan": require("./languages/tibetan"),
+  "Hebrew": require("./languages/hebrew"),
+  "Khmer": require("./languages/khmer"),
+  "Amharic": require("./languages/amharic"),
+  "Tamil": require("./languages/tamil"),
+  "Armenian": require("./languages/armenian"),
+  "Burmese": require("./languages/burmese"),
+  "Greek": require("./languages/greek"),
+  "Georgian": require("./languages/georgian"),
+  "Sinhalese": require("./languages/sinhalese"),
+  "Romaji": require("./languages/romaji"),
+  "Hiragana": require("./languages/hiragana"),
+};
 
 for (const languageName of languageNames) {
-  const languageConfig = require("./languages/" + languageName.toLowerCase());
-  let useAdditionalDictionary = false;
-  let differentAtEndOfWord = false;
-  if (languageConfig.useAdditionalDictionary) {
-    useAdditionalDictionary = true;
-  }
-  if (languageConfig.differentAtEndOfWord) {
-    differentAtEndOfWord = true;
-  }
   languages[languageName] = {
-    config: languageConfig,
-    dictionaries: loadLangDictionary(languageName, useAdditionalDictionary, differentAtEndOfWord),
+    config: languages[languageName],
+    dictionaries: loadLangDictionary(languageName),
   }
 }
 
