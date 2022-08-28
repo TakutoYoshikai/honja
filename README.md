@@ -37,7 +37,7 @@ HONJAは多言語でひらがなを翻字できるツールです。
 
 **インストール**
 ```bash
-npm install -g TakutoYoshikai/honja
+npm install -g honja
 ```
 
 **翻字**
