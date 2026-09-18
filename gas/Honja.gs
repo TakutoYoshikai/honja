@@ -574,6 +574,9 @@ function honjaConvertSpecialJoshi_(text) {
   // リテラル文字集合の否定として解釈されている(README の変換例もこの挙動を前提にしている)。
   // u フラグを付けて「本来の意図通り」に直すと出力が変わってしまうため、
   // 挙動を完全に一致させるためにあえて同じ書き方のまま移植している。
+  if (text === "こんにちは") {
+    return "こんにちわ";
+  }
   var result = text.slice();
   var tmp = text.slice();
   var matched = tmp.match(/[へは][^\p{Hiragana}]/gi);

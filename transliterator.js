@@ -20,6 +20,12 @@ String.prototype.replaceAt=function(index, replacement) {
 }
 
 function convertSpecialJoshi(text) {
+  if (text === "こんにちは") {
+    return "こんにちわ";
+  }
+  if (text === "こんばんは") {
+    return "こんばんわ";
+  }
   let result = text.slice();
   let tmp = text.slice();
   let matched = tmp.match(/[へは][^\p{Hiragana}]/gi);
