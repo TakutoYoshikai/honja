@@ -20,15 +20,12 @@ String.prototype.replaceAt=function(index, replacement) {
 }
 
 function convertSpecialJoshi(text) {
-  if (text === "こんにちは") {
-    return "こんにちわ";
-  }
-  if (text === "こんばんは") {
-    return "こんばんわ";
-  }
   let result = text.slice();
-  let tmp = text.slice();
-  let matched = tmp.match(/[へは][^\p{Hiragana}]/gi);
+  if (result.endsWith("こんにちは") || result.endsWith("こんばんは")) {
+    result = result.slice(0, -1) + "わ";
+  }
+  let tmp = result.slice();
+  let matched = tmp.match(/[へは][^\p{Script=Hiragana}]/giu);
   while (matched) {
     tmp = tmp.replace(matched[0], "");
     if (matched[0][0] === "へ") {
