@@ -156,7 +156,7 @@ function Transliterator() {
                 value: convert(word.value.toString())
               }
             }
-            const tsuWord = numberToTsu(word.value);
+            const tsuWord = numberToTsu(parseInt(word.value, 10));
             return {
               value: tsuWord
             };

@@ -21,31 +21,31 @@ function toHankaku(text) {
 }
 
 function numberToTsu(number) {
-  if (n === 1) {
+  if (number === 1) {
     return "ひと";
   }
-  if (n === 2) {
+  if (number === 2) {
     return "ふた";
   }
-  if (n === 3) {
+  if (number === 3) {
     return "みっ";
   }
-  if (n === 4) {
+  if (number === 4) {
     return "よっ";
   }
-  if (n === 5) {
+  if (number === 5) {
     return "いつ";
   }
-  if (n === 6) {
+  if (number === 6) {
     return "むっ";
   }
-  if (n === 7) {
+  if (number === 7) {
     return "なな";
   }
-  if (n === 8) {
+  if (number === 8) {
     return "やっ";
   }
-  if (n === 9) {
+  if (number === 9) {
     return "ここの";
   }
   return null;

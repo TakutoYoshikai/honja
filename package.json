@@ -7,7 +7,7 @@
     "honja": "./bin/honja.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test test/",
     "build:gas": "node scripts/build-gas.js"
   },
   "repository": {
